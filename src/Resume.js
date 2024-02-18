@@ -298,7 +298,7 @@ const Resume = () => {
             </div>
             <button className="btn btn-info btn-block" style={{ width: "50%" }} onClick={() => {
                 generatePDF(resumeRef, { filename: "resume.pdf" })
-            }}>Download Result</button>
+            }}>Download Resume</button>
         </div>
     )
 }
